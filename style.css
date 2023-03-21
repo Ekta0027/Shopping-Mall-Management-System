@@ -1,0 +1,52 @@
+* {
+    margin: 0%;
+
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("./background\ Image.jpeg");
+
+    /* Set a specific height */
+    min-height: 800px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wlc::before {
+    color: red;
+    content: "Welcome To ";
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+
+
+
+}
+
+.wlc {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    background-color: skyblue;
+
+}
+
+.Login {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    font-size: 25px;
+    position: absolute;
+    bottom: 250px;
+    left: 645px;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylebillingcustomer.css">
+    <title> Stock Work</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <nav>
+            <ul>
+                <button type="submit"><a href="./admincontroler.html">Admin</a></button>
+                <button type="submit"><a href="./Empwork.html">Employee</a></button>
+                <button type="submit"><a href="./customer.html">Customer</a></button>
+                <button type="submit"><a href="#">Attendence</a></button>
+                <button type="submit"><a href="#">Report</a></button>
+                <button type="submit"><a href="#">Stock Dept</a></button>
+                <button type="submit"><a href="./admincontroler.html">Exit</a></button>
+            </ul>
+        </nav>
+
+        <div class="parallax"> Name</div>
+
+        <div class="sidenavbar">
+            <section>
+                <ul>
+                    <button type=" submit" class="sidebar1"><a href="./product.html">Stock </a></button>
+                    <button type="submit" class="sidebar1"><a href="./addstock.html">Add</a></button>
+                    <button type="submit" class="sidebar1"><a href="./editstock.html">Edit</a></button>
+                    <button type="submit" class="sidebar1"><a href="#">Save</a></button>
+                    <button type="submit" class="sidebar1"><a href="#">Clear</a></button>
+                    <button type="submit" class="sidebar1"><a href="./billingcustomer.html">Billing</a></button>
+                    <button type="submit" class="sidebar1"><a href="#">Import</a></button>
+                    <button type="submit" class="sidebar1"><a href="#">Electricity</a></button>
+
+                </ul>
+            </section>
+
+        </div>
+        <div class="Rightsidebar">
+            <div class="form">
+                <div class="header">
+                    <label class="i">Bill No:</label><input type="text" style="margin-left: 12.2px;">
+                    <label class="i">Billing Date:</label><input type="text"><br><br>
+                    <label class="i">Customer:</label><input type="text"><br><br>
+                    <label class="i">Mobil No:</label><input type="text"><br><br>
+                    <label style="position:relative; left: 675px; bottom:150px;">Billing Address:</label><textarea
+                        cols="20" rows="5" style="position:relative; left: 693px; bottom:80px; "></textarea>
+                </div>
+                <div class="main">
+                    <div class="main_heading">
+                        <label style="margin-left:15px;">Item Code:</label>
+                        <label style="margin-left:55px;">Discription:</label>
+                        <label style="margin-left: 110px;">Quantity:</label>
+                        <label style="margin-left: 25px;">Unit Price:</label>
+                        <label style="margin-left: 37px;">Discount Amt:</label>
+                        <label style="margin-left: 39px;">Total Price:</label><br><br>
+                        <input class="mi" type="text" size="10">
+                        <input class="mi" type="text" size="20">
+                        <input class="mi" type="text" size="5">
+                        <input class="mi" type="text" size="8">
+                        <input class="mi" type="text" size="12">
+                        <input class="mi" type="text" size="15">
+                    </div>
+                    <div class="main_heading_side">
+                        <button class="btn">+</button>
+                        <button class="btn">-</button><br><br>
+                    </div>
+
+                </div>
+                <div class="main_footer">
+                    <div class="main_footer_contain">
+                        <table>
+                            <tr>
+                                <th>$No</th>
+                                <th>ITEM CODE</th>
+                                <th>PRODUCT NAME</th>
+                                <th>QTY</th>
+                                <th>UNIT PRICE</th>
+                                <th></th>
+
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="right_footer">
+                    <div class="right_footer_heading">
+                        <label class="rfh">Doscount%</label> <input type="text" size="10">
+                        <label style="margin:0px 10px 0px 140px;">Total</label> <input type="text" size="10"><br><br>
+                        <label class="rfh">Discount Amount</label> <input type="text" size="10"
+                            style="margin-left:-37px;">
+                        <label style="margin:0px 20px 0px 137px;">Tax</label> <input type="text" size="10">
+                        <label style="position: relative; bottom: 20px; margin: 0px 20px 0px 49px ;">Grand Total</label>
+                        <input type="text" size="10" style="position: relative; bottom: 20px; ">
+                    </div>
+
+                    <div class="right_footer_footer">
+                        <button class="btn_footer1"><a href="./stock.html" style="text-decoration: none; color: black;">
+                                Cancel </a></button>
+                        <button class="btn_footer2">Paid</button><br><br>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

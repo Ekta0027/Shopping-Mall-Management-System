@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styleAddEmp.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <title>Add Employee</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <nav>
+            <ul>
+                <button type="submit"><a href="#">Admin control</a></button>
+                <button type="submit"><a href="#">Employee</a></button>
+                <button type="submit"><a href="#">Customer</a></button>
+                <button type="submit"><a href="#">Attendence</a></button>
+                <button type="submit"><a href="#">Report</a></button>
+                <button type="submit"><a href="#">Stock Dept</a></button>
+                <button type="submit"><a href="./index.html">Exit</a></button>
+            </ul>
+        </nav>
+
+        <div class="parallax"> Name</div>
+
+        <div class="sidenavbar">
+
+            <ul>
+                <button type="submit" class="sidebar1" id="mybtn"><a href="#Add">Add
+                        Emp</a></button>
+
+                <button type="submit" class="sidebar1"><a href="./update.html">Update</a></button>
+                <button type="submit" class="sidebar1"><a href="./delete.html">Delete</a></button>
+                <button type="submit" class="sidebar1"><a
+                        href="./makeattendence.html">Attendence</a></button>
+            </ul>
+
+
+        </div>
+
+        <div class="Rightsidebar" id="Rcontainer">
+            <div class="grid-container">
+                <div class="grid-container-contain1">
+
+                    <label style="margin-right:53px;">Name:</label> <input class="i" type="text" size="50"><br><br>
+                    <label style="margin-right:55px;"> Email:</label><input class="i" type="text" size="50"><br><br>
+                    <label> Date of Birth:</label> <input type="text" class="i" size="50"><br> <br>
+                    <label style="margin-right:22px;">Aadhar No</label><input type="text" class="i" size="50"><br><br>
+                    <label style="margin-right:30px;"> PAN No:</label> <input type="text" class="i" size="50"><br><br>
+                    <label style="margin-right:45px;"> Gender:</label><input type="radio" class="i" size="50"> Male
+                    <input type="radio" class="i"> Female <br><br>
+                    <label style="margin-right:19px;"> civil status: </label><select id="civil status" class="i">
+                        <option value="">--Select--</option>
+                        <option value="being single">being single</option>
+                        <option value="married">married</option>
+                        <option value="separated ">separated </option>
+                        <option value="divorced"> divorced</option>
+                        <option value="widowed">widowed</option>
+                    </select><br><br>
+                    <label style="margin-right:19px;">Account No</label><input type="text" class="i" size="50"><br><br>
+                    <label style="margin-right:24px;">IF SC Code</label><input type="text" class="i" size="50"><br><br>
+                    <label style="margin-right:54px;"> User id </label> <input type="text" class="i" size="50"><br><br>
+                    <label>New Password:</label><input type="text" class="i" size="50"><br> <br>
+                    <button class="ib" style="color: white; background-color: black;"><a
+                            href="../admin/admincontroler.html" style="color: white; text-decoration: none;">
+                            Exit</a></button>
+
+
+                </div>
+                <div class="grid-container-contain2">
+                    <label style="margin-right:45px;"> Father's Name</label> <input class="i" type="text"
+                        size="50"><br><br>
+                    <label style="margin-right:79px;">Phone No</label> <input type="text" class="i" size="50"><br> <br>
+                    <label style="margin-right:70px;">Birth Place</label> <input type="text" class="i"
+                        size="50"><br><br>
+                    <label style="margin-right:92px;">Address </label><textarea type="text" class="i"
+                        size="150"></textarea><br> <br>
+                    <label style="margin-right:78px;">Nationality</label><select class="i">
+                        <option value="">--Select--</option>
+                        <option value="India">being single</option>
+                        <option value="UK">married</option>
+                        <option value="USA">separated </option>
+                        <option value="NEW YORK"> divorced</option>
+                        <option value="Africa">widowed</option>
+                    </select><br><br>
+                    <label style="margin-right: 55px;">Upload Photo</label> <input type=""
+                        style="padding:7px 0px 50px ; ">
+                    <br> <button
+                        style="position:relative; left: 300px; font-size: 18px; cursor: pointer;">Upload</button> <br>
+                    <br><br>
+
+                    <label style="margin-right: 55px;"> Cnf Password </label> <input type="text" size="50px"
+                        class="i"><br>
+                    <button class="if">Clear</button>
+                    <button class="if1">Save</button>
+                </div>
+
+            </div>
+
+        </div>
+</body>
+
+
+
+</html>
